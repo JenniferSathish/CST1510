@@ -1,0 +1,11 @@
+This tells Git which files never to upload. In VS Code, create a new file in
+the `CST1510` folder, name it `.gitignore` (starting with a dot), paste this
+in and save:
+
+```
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.env
+```
