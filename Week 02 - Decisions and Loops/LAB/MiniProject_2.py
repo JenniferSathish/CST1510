@@ -34,7 +34,7 @@ while True:
     else:
         status = "OK"
     
-    print("\n==================================")
+    print("===================================")
     print(f"  RECORD CHECK  -  {lable}")
     print("==================================")
     print(f"  Used        : {used:10.2f}")
