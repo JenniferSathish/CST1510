@@ -17,7 +17,7 @@ count_ol = 0
 while True:
     lable = input("Enter hostname: ").strip()
     
-    if lable == "quit":
+    if lable == "done":
         break
     
     used = float(input("Enter Used value: "))
@@ -34,14 +34,14 @@ while True:
     else:
         status = "OK"
     
-    print("===================================")
+    print("="*35)
     print(f"  RECORD CHECK  -  {lable}")
-    print("==================================")
+    print("="*35)
     print(f"  Used        : {used:10.2f}")
     print(f"  Total       : {tot:10.2f}")
     print(f"  Free        : {difference:10.2f}")
     print(f"  Percent     : {percentage:10.2f} %")
     print(f"  Status      : {status:>10s}")
-    print("==================================")
+    print("="*35)
 
 print(f"total overlimit records: {count_ol}")
