@@ -15,13 +15,13 @@ Delete these instructions as you replace them with your code.
 count_ol = 0
 
 while True:
-    lable = input("Enter hostname: ").strip()
+    lable = input("enter hostname: ")
     
     if lable == "done":
         break
     
-    used = float(input("Enter Used value: "))
-    tot = float(input("Enter Total value: "))
+    used = float(input("enter used value: "))
+    tot = float(input("enter total value: "))
     
     difference = tot - used
     percentage = (used / tot) * 100
