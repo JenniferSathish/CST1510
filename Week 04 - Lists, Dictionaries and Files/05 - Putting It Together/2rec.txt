@@ -1,0 +1,3 @@
+person1,87,100
+person2,27,90
+person3,99,100
