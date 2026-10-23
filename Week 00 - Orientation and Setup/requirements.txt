@@ -1,8 +1,0 @@
-ipykernel
-pandas
-matplotlib
-requests
-bcrypt
-streamlit>=1.28
-openai>=1.0
-pytest
