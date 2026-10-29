@@ -55,25 +55,20 @@ def load_records(path):
     return records
 
 
-
-
 with open ("gb_rec.txt", "w") as f:                                       #using a while loop to get multiple user inputs to store and write into a file 
         while True:
-            label = input("Enter hostname/label: ")
-            value = input("Enter value: ")
-            limit = input("Enter limit: ")
+            label = input("enter hostname/label: ")
+            value = input("enter value: ")
+            limit = input("enter limit: ")
             
             f.write(f"{label}, {value}, {limit}\n")
             
-            again = input("Add another? (y/n): ")
+            again = input("add another? (y/n): ")
             if again != "y":
                 break
 
 
-
 result= (load_records("gb_rec.txt"))                                    #storeint whats returned in result
-print("\nRecords Entered:")                                             #loop through each record thats stored ina  dictionary in the list to print it line by line as a dictionary only 
+print("\nrecords entered:")                                             #loop through each record thats stored ina  dictionary in the list to print it line by line as a dictionary only 
 for record in result:
-    print(record)
-
-#the file gb_rec.txt is being made outside the lab folder for some reason, moving it inside the lab folder will only create a new one outside the folder again in the cst1510 folder. i dont know why
+    print(record) 
