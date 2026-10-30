@@ -7,9 +7,6 @@ Lane  : IT
 Date  : 10/10/2026
 
 Run it:   miniproject3.py
-
-Work through the numbered sections in order. Each one tells you what it must do.
-Delete these instructions as you replace them with your code.
 """
 
 def status_of(percent):
