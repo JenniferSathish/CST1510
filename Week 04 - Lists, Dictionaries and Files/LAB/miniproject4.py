@@ -10,6 +10,15 @@ Run it:   miniproject4.py
 
 """
 
+"""
+## What to build
+**Excellent.** Also **write the results out to a new file** — one line per record,
+`label,status` — as well as printing them. Keep a running count of how many were
+`OVER LIMIT` and print that once, after the loop ends. Wrap the call to
+`load_records` in a `try`/`except` so a missing file prints a clear message and
+starts with an empty list, instead of crashing (Topic 4).
+"""
+
 #no need to make many funtion blocks for this project. ill use only one funtion def from the week04.05 walkthrough since most of the code req. has already been written
 #all counting rec?overlimit recs. and caluclations + storing in list as dictionary will be done in one funtion block 
 #output for the records will be printed as a dictionary  
