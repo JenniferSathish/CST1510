@@ -7,9 +7,6 @@ Lane  : IT
 Date  : 10/3/2026
 
 Run it:   miniproject1.py
-
-Work through the numbered sections in order. Each one tells you what it must do.
-Delete these instructions as you replace them with your code.
 """
 
 label = input("enter your hostname:")         #asking users for input
