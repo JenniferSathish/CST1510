@@ -9,6 +9,8 @@ Date  : 10/10/2026
 Run it:   miniproject3.py
 """
 
+#printing records using function definition blocks for each task
+
 def status_of(percent):
     """Returns a message based on the percent"""
     if percent >= 100:
