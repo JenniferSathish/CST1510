@@ -7,9 +7,6 @@ Lane  : IT
 Date  : 10/25/2026
 
 Run it:   miniproject5.py
-
-Work through the numbered sections in order. Each one tells you what it must do.
-Delete these instructions as you replace them with your code.
 """
 
 class Record:
@@ -32,11 +29,11 @@ class Record:
 
 
 def w_file(path):
-    """writing data into another txt file due to some path errors"""
-    datas = "srv-01,87,120\nsrv-02,112,110\nsrv-03,45,100\nsrv-04,95,100\n"
-    with open(path, "w") as file:
-        file.write(datas)
-
+     """ writing data into another txt file due to some path errors"""
+     datas = "srv-01,87,120\nsrv-02,112,110\nsrv-03,45,100\nsrv-04,95,100\n"
+     with open(path, "w") as file:
+               file.write(datas) 
+     
 
 def load_recs(path):
     """reads recs from the text file and returns it as a list of record objects"""
@@ -63,9 +60,7 @@ def format(record):
 
 
 #assign the txt file into a variable which will be used to call function w_file to write the data into this txt file
-file_path = "data.txt"
-w_file(file_path)
-
+file_path = w_file("data.txt")
 #after writing, this line will load and read the records/data we wrote into the txt file and append it into a list as record objects from our class variables
 records = load_recs(file_path)
 
