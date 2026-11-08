@@ -1,0 +1,7 @@
+label,value,limit,percent,over,status
+R-001,87,100,87.0,False,OK
+R-002,120,100,120.0,True,OVER LIMIT
+R-003,45,100,45.0,False,OK
+R-004,93,100,93.0,False,WARNING
+R-005,101,100,101.0,True,OVER LIMIT
+R-006,60,100,60.0,False,OK
