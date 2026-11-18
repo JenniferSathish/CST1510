@@ -1,0 +1,1 @@
+{'server': 'SRV-01', 'used': 87, 'total': 100} this record status is: WARNING{'server': 'SRV-02', 'used': 120, 'total': 100} this record status is: OVER LIMIT{'server': 'SRV-03', 'used': 45, 'total': 100} this record status is: OK{'server': 'SRV-04', 'used': 93, 'total': 100} this record status is: OVER LIMIT
